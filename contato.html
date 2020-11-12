@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Academia Interação</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+</head>
+<body>
+	<header> 
+		<div class="logo">
+			<img src="imagens/logo1.png" alt="logo" title="logo">
+		</div>
+		<nav> 
+			<ul>
+				<a href="index.html"><li class="BOTAO">HOME</li></a>
+				<a href="sobre.html"><li class="BOTAO">SOBRE</li></a>
+				<a href="galeria.html"><li class="BOTAO">GALERIA</li></a>
+				<a href="contato.html"><li class="BOTAO">CONTATO</li></a>
+			</ul>
+		</nav> 
+	</header>
+	<main> 
+
+			<section class="conteudo"> 
+				<div id="mapa">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3653.574751939843!2d-46.55405698501988!3d-23.691160884618565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce423586355a51%3A0xf1d7e7d2655053b1!2sAv.%20Senador%20Vergueiro%2C%20400%20-%20Rudge%20Ramos%2C%20S%C3%A3o%20Bernardo%20do%20Campo%20-%20SP%2C%2009750-000!5e0!3m2!1spt-BR!2sbr!4v1605016036231!5m2!1spt-BR!2sbr" width="1000" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> <!-- alterar tamanho aqui com width e height/Para colocar mapa-google maps-compartilhar-incorporar um mapa -->
+				</div>
+
+				<div id="info">
+					<h1>Como posso ajudar?</h1>
+					<p>Esse é o canal disponibilizado pela INTEIRAÇÃO para você enviar sua sugestões, dúvidas ou elogios.</p>
+					<br>
+					<p>Avenida Senador Vergueiro, 400, São Bernardo do Campo - SP</p>
+					<p>(11) 4366-0000</p>
+					<p>contato@interacao.com.br</p>
+					<p><a href="https://api.whatsapp.com/send?phone=5511900000000&text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." target="blank"><img src="imagens/whats.png" width="30"></a></p>
+				</div>
+
+				<aside id="formulario"> 
+					<form id="form" method="post" action="envia.php">
+						<div> 
+						<label for="nome"> Nome: </label>
+						<input type="text" name="nome" id="NOME" placeholder="Escreva seu nome completo:">
+						</div>	
+
+						<div>
+							<label for="email"> E-mail:</label>
+							<input type="text" name="email" id="EMAIL" placeholder="email@dominio.com" required>
+						</div>
+
+						<div>
+							<label for="mensagem">Mensagem:</label>
+							<textarea type="text" name="mensagem" id="MENSAGEM" placeholder="Escreva sua mensagem">  </textarea>
+						</div>
+
+						<input type="submit" value="enviar" id="ENVIAR" class="BOTAO"> 
+						<input type="reset" value="limpar" id="LIMPAR" class="BOTAO"> 
+
+					</form>
+					
+				</aside>
+
+				
+			</section>
+	</main> 
+	<footer>
+		<p> Siga-nos nas Redes Sociais</p>
+		<br>
+		<a href="https://pt-br.facebook.com/StudioInteracaoOficial/" target="blank"><img src="imagens/social-facebook.png" alt="Link Facebook" title="Rede Social Facebook"></a> <!-- ícone link facebook -->
+
+		<a href="https://twitter.com/SmartFitOficial/" target="blank"><img src="imagens/social-twitter.png" alt="Link Twitter" title="Rede Social Twitter"></a> <!-- ícone link twitter -->
+
+		<a href="https://www.youtube.com/channel/UC9sPrKlQsnNYfKhmcxjFa0A/" target="blank"><img src="imagens/social-youtube.png" alt="Link Youtube" title="Rede Social Youtube"></a> <!-- ícone link youtube -->
+
+			<br><br>
+			<p> © 2020 Academia Interação. Todos os direitos reservados.</p>
+
+	</footer> 
+</body>
+</html>

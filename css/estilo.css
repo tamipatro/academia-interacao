@@ -1,0 +1,191 @@
+*{ 
+	margin: 0px; 
+	padding: 0px; 
+}
+
+body{
+	font-family: "Calibri", Helvetica, Arial;
+}
+
+header{
+	width: 100%; 
+	height: 70px;
+	background-color: #e28f2e;
+	position: fixed; 
+}
+
+/*####### MENU ####### */
+
+nav{ 
+	font-size: 19px; 
+}
+
+nav ul{ 
+	list-style-type: none;
+}
+
+nav li{
+	float: left; 
+	margin-left: 5px;
+	padding: 5px 10px; 
+	color: #fff; 
+	font-weight: bold; 
+	line-height: 3.2; 
+}
+
+nav ul .BOTAO:hover{ 
+	background-color: rgba(255, 255, 255, 0.2);
+
+}
+
+.logo{ 
+	float: left;
+	margin: 10px 20px 25px 15px;
+}
+
+/*####### CONTEÚDO - HOME PAGE ####### */
+
+main{ 
+	width: 1000px;
+	height: 600px;
+	margin: 0 auto; 
+
+}
+
+#banner_img{
+	width: 1000px;
+	height: 300px;
+	float: left;
+	margin-top: 70px; 
+	margin-bottom: 15px;
+}
+
+.fotoshome{
+	float: left;
+	width: 50%;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.conteudo{
+	float: left;
+}
+
+article{
+	margin-bottom: 10px; 
+	text-align: justify; 
+}
+
+/*####### RODAPÉ ####### */
+
+footer{
+	clear: both; 
+	background-color: #e28f2e;
+	color: white;
+	text-align: center;
+	padding: 30px 0;
+
+}
+
+/*####### SOBRE ####### */
+
+.fotossobre{ 
+	width: 20%;
+	height: 160px;
+	float: left;
+}
+
+.asobre{
+	width: 80%;
+	height: 150px;
+	padding-top: 10px;
+	float: left;
+}
+/*####### CONTATO ####### */
+
+#mapa{
+	margin-top: 70px; 
+	float: left;
+}
+
+#info{
+	width: 370px;
+	float: left;
+}
+
+/*####### FORMULÁRIO ####### */
+
+#formulario{
+	width: 600px;
+	float: right;
+}
+
+#formulario label{
+	font-size: 18px;
+}
+
+#formulario div input{
+	background-color: #fae5cc;
+	border: 1px solid #f2c085; 
+	width: 600px;
+	height: 28px;
+	font-size: 15px;
+}
+
+#formulario div textarea{
+	background-color: #fae5cc;
+	border: 1px solid #f2c085;
+	width: 600px;
+	height: 80px;
+	font-size: 15px;
+	resize: none;
+}
+
+#formulario .BOTAO{
+	width: 80px;
+	height: 30px;
+	font-size: 16px;
+	color: #fff;
+	margin-left: 15px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	float: right;
+	cursor: pointer;
+}
+
+#ENVIAR{
+	background-color: darkgreen;
+	border: 1px solid #8bac7f;
+}
+
+#LIMPAR{
+	background-color: red;
+	border: 1px solid #b89898;
+}
+
+#formulario h2{
+	font-size: 22px;
+	color: orange;
+	text-align: center;
+	margin: 36px 0;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+/*####### GALERIA ####### */
+
+.galeria{
+	margin: 10px;
+	text-align: center;
+}
+
+.galeria img{
+	padding: 20px;
+}
+
+.titulogaleria{
+	font-size: 24px;
+}
+
+
