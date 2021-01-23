@@ -16,7 +16,7 @@ Projeto desenvolvido em aula sob orientação do Professor.
 ## Preview:
 
 
-<a href="url"><img src="https://user-images.githubusercontent.com/73259410/100771647-6cbc4980-33dd-11eb-9180-269ccb4ac036.jpg" height="542" width="1901" ></a>
+![academia](https://user-images.githubusercontent.com/73259410/105616035-a47ab880-5db2-11eb-9bea-dbc0598703e6.gif)
 
 
 ### Obrigada pela visita!
